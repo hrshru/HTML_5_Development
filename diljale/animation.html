@@ -1,0 +1,201 @@
+<html>
+<head>
+<style>
+@keyframes Animation1
+                    {
+					0%{left:10px;top:10px;}
+					25%{left:400px;top:10px;}
+					50%{left:400px;top:400px;transform:rotate(180deg);}
+					75%{left:10px;top:400px;transform:rotate(30deg);}
+					100%{left:10px;top:10px;transform:rotate(280deg);}
+					
+					}
+@keyframes Animation2
+                     {
+					 form{width:50px;height:50px;
+					 transform:rotate(0deg);
+					 border-radius:50px;;}
+					 to{width:400px;height:400px;
+					 transform:rotate(360deg);
+					 border-radius:250px;}
+                      }
+@keyframes Animation6
+                     {
+					 form{width:400px;height:400px;
+					 transform:rotate(360deg);
+					 border-radius:50px;}
+					 to{width:50px;height:50px;
+					 transform:rotate(0deg);
+					 border-radius:250px;}
+                      }					  
+@keyframes Animation3
+                    {
+					0%{left:300px;top:10px;}
+					25%{left:0px;top:10px;}
+					50%{left:0px;top:350px;transform:rotate(180deg);}
+					75%{left:300px;top:350px;transform:rotate(30deg);}
+					100%{left:300px;top:10px;transform:rotate(280deg);}
+					
+					}
+@keyframes Animation5
+                    {
+					0%{left:0px;top:10px;}
+					25%{left:100px;top:100px;}
+					50%{left:200px;top:200px;transform:rotate(180deg);}
+					75%{left:300px;top:300px;transform:rotate(30deg);}
+					100%{left:300px;top:10px;transform:rotate(280deg);}
+					
+					}					
+					  
+@font-face
+         {
+          font-family:demo;
+          src:url('i believe in life before death.ttf')	;
+          }		  
+body
+    {
+     background-color:red;
+    }	 
+#img1
+     {
+      width:150px;
+      height:120px;
+      position:relative;
+      left:10px;
+      top:10px;
+      animation-name:Animation1;
+      animation-duration:5s;
+	  animation-iteration-count:5;
+	  animation-direction: alternate;
+      }
+#img3
+     {
+      width:150px;
+      height:120px;
+      position:relative;
+      left:100px;
+      top:200px;
+      animation-name:Animation3;
+      animation-duration:5s;
+	  animation-iteration-count:5;
+	  animation-direction: alternate;
+      }
+#img4
+     {
+      width:150px;
+      height:120px;
+      position:relative;
+      left:50px;
+      top:20px;
+      animation-name:Animation2;
+      animation-duration:5s;
+	  animation-iteration-count:5;
+	  animation-direction: alternate;
+      }	
+#img5
+     {
+      width:150px;
+      height:120px;
+      position:relative;
+      left:100px;
+      top:20px;
+      animation-name:Animation5
+      animation-duration:5s;
+	  animation-iteration-count:5;
+	  animation-direction: alternate;
+      }	    	  
+#img2
+     {
+      width:70px;
+      height:70px;
+      position:relative;
+      left:10px;
+      top:10px;
+      animation-name:Animation2;
+      animation-duration:5s;
+	  animation-iteration-count:5;
+	  animation-direction: alternate;
+      }	
+#img6
+     {
+      width:70px;
+      height:70px;
+      position:relative;
+      left:250px;
+      top:250px;
+      animation-name:Animation6;
+      animation-duration:5s;
+	  animation-iteration-count:5;
+	  animation-direction: alternate;
+      }	  	  
+#div1
+     {
+      border:4px solid red;
+      border-radius:90px;
+      height:550px;
+      margin-left:50px;
+      width:600px;
+	  background-image:url("wall.jpg");
+      }	
+#div2
+     {
+      border:4px solid red;
+      border-radius:90px;
+      height:550px;
+      margin-left:50px;
+      width:600px;
+	  background-image:url("nature.jpg");
+	  position:absolute;
+	  left:700px;
+	  top:170px;
+      }		  
+h1
+   {
+   font-family:demo;
+   text-align:center;
+   text-shadow: 15px 15px 15px black;
+   text-transform:uppercase;
+   color:red;
+   background-color:white;
+   padding:10px;
+   
+  
+   }
+h2
+   {
+   font-family:demo;
+   text-align:center;
+   text-shadow: 10px 10px 15px black;
+   text-transform:uppercase;
+   color:green;
+   background-color:white;
+   padding:10px;
+   text-decoration:underline;
+  
+   }    
+</style>
+</head>
+<body>
+<h1>Dil Hai Tumhara</h1>
+<hr/>
+<h2>DilJale</h2>
+<div id="div1">
+<img id="img1" src="heart.PNG" width="200" height="150"/>
+<img id="img3" src="heart.PNG" width="200" height="150"/>
+<img id="img4" src="heart.PNG" width="200" height="150"/>
+<img id="img5" src="heart.PNG" width="200" height="150"/>
+
+</div>
+
+<br><br/>
+<div id="div2">
+<img id="img2" src="lemon.PNG" width="200" height="150"/>
+<img id="img6" src="lemon.PNG" width="200" height="150"/>
+</div>
+</body>
+
+
+
+
+
+</html>
